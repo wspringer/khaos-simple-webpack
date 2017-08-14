@@ -4,7 +4,8 @@
   "description": "{{ description }}",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server",
+    "build": "webpack"
   },
   "author": "{{ owner }}",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "pug": "^2.0.0-rc.3",
     "pug-loader": "^2.3.0",
     "style-loader": "^0.18.2",
-    "webpack": "^3.5.4"
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
   }
 }
